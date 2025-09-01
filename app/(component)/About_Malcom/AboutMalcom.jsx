@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import malcolm from "@/public/MalcolmGladwell.webp"; // left side image
+import malcolm from "@/public/MalcolmGladwell.webp";
 import { Link } from "lucide-react";
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
                             reconsiders things both overlooked and misunderstood, and Broken
                             Record, where he, Rick Rubin, and Bruce Headlam interview musicians
                             across a wide range of genres. Gladwell has been included in the TIME
-                            100 Most Influential People list and touted as one of Foreign Policy’s
+                            100 Most Influential People list and touted as one of Foreign Policy{"’"}s
                             Top Global Thinkers.
                         </p>
 

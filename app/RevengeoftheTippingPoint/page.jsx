@@ -6,7 +6,7 @@ import YouMayAlsoLike from "@/app/(component)/YouMayAlsoLike/YouMayAlsoLike";
 import MalcolmBook from "@/public/malcolm-book.webp";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdKeyboardArrowUp } from "react-icons/md";
-import Footer from "../(component)/Footer/Footer";
+import Footer from "@/(component)/Footer/Footer";
 export default function Page() {
     const formats = [
         { name: "Hardcover", price: 41.0, currency: "CAD" },

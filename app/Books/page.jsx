@@ -9,7 +9,7 @@ import whatthedogsaw from "@/public/whatthedogsaw.webp"
 import thetippingpoint from "@/public/thetippingpoint.webp"
 import Navbar from "@/app/(component)/Navbar/Navbar";
 import blink from "@/public/blink.webp"
-import Footer from '../(component)/Footer/Footer';
+import Footer from '@/(component)/Footer/Footer';
 export default function Books() {
   return (
     <>
