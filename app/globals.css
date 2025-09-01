@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@keyframes hoverFlash {
+  0% {
+    background-color: #00bef4; /* Blue (default) */
+  }
+  50% {
+    background-color: yellow;  /* Yellow first */
+  }
+  100% {
+    background-color: black;   /* Then Black */
+  }
+}
+
+.hover-flash {
+  background-color: #00bef4; /* Default blue */
+  color: white;              /* Always white text */
+}
+
+.hover-flash:hover {
+  animation: hoverFlash 0.4s forwards;
+}
