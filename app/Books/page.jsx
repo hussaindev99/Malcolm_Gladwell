@@ -14,7 +14,6 @@ export default function Books() {
   return (
     <>
       <Navbar />
-      {/* book 1 */}
       <main className="px-8 py-12 ">
         {/* Heading */}
         <h2 className="text-4xl font-serif font-bold text-center mb-12">Books</h2>
