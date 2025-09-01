@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Navbar from '@/(component)/navbar/Navbar'
+import Navbar from '@/(component)/Navbar/Navbar'
 import RevisionistHistory from "@/public/RevisionistHistory.webp"
 import BrokenRecord from "@/public/BrokenRecord.webp"
 import AgainsttheRules from "@/public/AgainsttheRules.webp"

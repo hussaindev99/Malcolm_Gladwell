@@ -2,7 +2,7 @@
 import Image from "next/image";
 import malcolm from "@/public/MalcolmGladwell.webp"; // apni image yahan dalni hai public folder me
 import Footer from "@/(component)/Footer/Footer";
-import Navbar from "@/(component)/navbar/Navbar";
+import Navbar from "@/(component)/Navbar/Navbar";
 
 export default function Page() {
   return (
