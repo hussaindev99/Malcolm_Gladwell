@@ -4,10 +4,10 @@ import Navbar from "@/app/(component)/Navbar/Navbar";
 import Image from "next/image";
 import YouMayAlsoLike from "@/app/(component)/YouMayAlsoLike/YouMayAlsoLike";
 import MalcolmBook from "@/public/malcolm-book.webp";
-import { MdKeyboardArrowDown } from "react-icons/md";
-import { MdKeyboardArrowUp } from "react-icons/md";
-import Footer from "@/(component)/Footer/Footer";
-export default function Page() {
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+import Footer from "@/app/(component)/Footer/Footer";
+
+export default function RevengeoftheTippingPoint() {
     const formats = [
         { name: "Hardcover", price: 41.0, currency: "CAD" },
         { name: "ebook", price: 20.99, currency: "CAD" },

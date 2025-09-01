@@ -1,16 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
-import Navbar from '@/(component)/Navbar/Navbar'
+import Link from 'next/link'
+
+import Navbar from '@/app/(component)/Navbar/Navbar'
+import Footer from '@/app/(component)/Footer/Footer'
+
 import RevisionistHistory from "@/public/RevisionistHistory.webp"
 import BrokenRecord from "@/public/BrokenRecord.webp"
 import AgainsttheRules from "@/public/AgainsttheRules.webp"
 import DeepBackground from "@/public/DeepBackground.webp"
 import GladwellPodcastLogosSolvable from "@/public/GladwellPodcastLogosSolvable.webp"
 import MakingAKilling from "@/public/MakingAKilling.webp"
-import Footer from '@/(component)/Footer/Footer'
-import Link from 'next/link'
 
-export default function page() {
+export default function Podcasts() {
     return (
         <>
             <Navbar />

@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '@/(component)/Navbar/Navbar'
-import Footer from '@/(component)/Footer/Footer'
+import Navbar from '@/app/(component)/Navbar/Navbar'
+import Footer from '@/app/(component)/Footer/Footer'
 
-export default function page() {
+export default function Events() {
   return (
     <div>
       <Navbar />

@@ -1,15 +1,17 @@
 import React from 'react'
 import Image from 'next/image';
-import Talkingtostrangersmalcolmgladwell from "@/public/Talkingtostrangersmalcolmgladwell.webp"; // apni image yahan dalni hai public folder me
-import OutliersPaperback from "@/public/Outliers_Paperback.webp"
-import Malcolmbook from "@/public/malcolm-book.webp"
-import BomberMafia from "@/public/bombermafia.webp"
-import davidandgoliath from "@/public/davidandgoliath.webp"
-import whatthedogsaw from "@/public/whatthedogsaw.webp"
-import thetippingpoint from "@/public/thetippingpoint.webp"
+import Talkingtostrangersmalcolmgladwell from "@/public/Talkingtostrangersmalcolmgladwell.webp";
+import OutliersPaperback from "@/public/Outliers_Paperback.webp";
+import Malcolmbook from "@/public/malcolm-book.webp";
+import BomberMafia from "@/public/bombermafia.webp";
+import davidandgoliath from "@/public/davidandgoliath.webp";
+import whatthedogsaw from "@/public/whatthedogsaw.webp";
+import thetippingpoint from "@/public/thetippingpoint.webp";
+import blink from "@/public/blink.webp";
+
 import Navbar from "@/app/(component)/Navbar/Navbar";
-import blink from "@/public/blink.webp"
-import Footer from '@/(component)/Footer/Footer';
+import Footer from "@/app/(component)/Footer/Footer";
+
 export default function Books() {
   return (
     <>
